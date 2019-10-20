@@ -1,8 +1,21 @@
 # APCSA Freedom Project
-by Your Name Here
+by Elizabeth Vazquez
 
 ## Context
-Text
+In the High School of Telecommunication Arts and Technologies, many students from each
+grade can be accepted into the Software Engineering Program (SEP) class. For the 2019-2020
+school year, seniors who are planning to pursue Computer Science in college or want to learn
+more coding are now given the opportunity to take Advanced Placement Computer Science A
+(APCSA). As a part of SEP, students are to work on a year-long project where we:
+* define & research a problem;
+* brainstorm & plan solutions; and
+* create, test, revise,& share our software product.
+
+This project enables students to think outside the box, work on something they're passionate
+about, be better problem-solvers, be independent, learn on our own, and develop skills that
+will inevitably be useful in any field we choose to go into - Computer Science or not.
+Technology is innovative and a cycle of problems, work, and solutions to make creators and
+users alike informed, entertained, and bustling with curiosity.
 
 ## Content
 Text
