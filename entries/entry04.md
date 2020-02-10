@@ -1,16 +1,19 @@
 # Entry 4
 ##### 2/9/20
 
-In my last blog entry, I explained how one of our obstacles had been sending our project from Android Studio to Github in order to begin collaborating from our own devices. A few weeks ago, Aaliyah Sealey managed to use the terminal in Android Studio and successfully connect the local project to the remote repository we had created on GitHub with her account. It was a great milestone for us. We were now able to code into the project from our own IDEs on [CS50](ide.cs50.io).
+In my last blog entry, I explained how one of our obstacles had been sending our project from Android Studio to Github in order to begin collaborating from our own devices. A few weeks ago, Aaliyah Sealey managed to use the terminal in Android Studio and successfully connect the local project to the remote repository we had created on GitHub with her account. It was a great milestone for us. We were now able to code into the project from our own IDEs on [CS50](https://ide.cs50.io/).
 
 We are now at the **plan the most promising solution** and **create a prototype** stages of the engineering design process.<br>
-Nadia Ousman suggested we start with the button that we had on our app's wireframe for the home page. This button is essential to our app because we want it to add a new alarm when the user presses it. With the information provided on [this](https://developer.android.com/guide/topics/ui/controls/button#java) website from Android's Developer website about buttons, Nadia was able to create a button. However, the button was rectangular, so she found Java code that would make it appear circular. In order to do so, she had to navigate herself to the `drawable/` folder to create a new file called `button_bg_round.xml`. In the file, the following was added:<br>
+Nadia Ousman suggested we start with the button that we had on our app's wireframe for the home page. This button is essential to our app because we want it to add a new alarm when the user presses it. With the information provided on [this](https://developer.android.com/guide/topics/ui/controls/button#java) website from Android's Developer website about buttons, Nadia was able to create a button. However, the button was rectangular, so she found Java code that would make it appear circular. In order to do so, she had to navigate herself to the `drawable/` folder to create a new file called `button_bg_round.xml`. In the file, the following was added:
+
 ![button](../images/button.png)
 
-The code from the Android Developer had many attributes that could be modified like its width, height, text, color, etc. Therefore, we all tinkered with the button's properties and ended up with a red, plus button.<br>
+The code from the Android Developer had many attributes that could be modified like its width, height, text, color, etc. Therefore, we all tinkered with the button's properties and ended up with a red, plus button.
+
 ![button-attributes](../images/button-attributes.png)
 
-Meanwhile, Aaliyah had been referring back to our pseudocode and sketches in our *MedTrack* folder on [Google Drive](https://www.google.com/drive/). She added comments to the `MainActivity.java` file to remind us of what tasks we need to accomplish to make our app function. <br>
+Meanwhile, Aaliyah had been referring back to our pseudocode and sketches in our *MedTrack* folder on [Google Drive](https://www.google.com/drive/). She added comments to the `MainActivity.java` file to remind us of what tasks we need to accomplish to make our app function.
+
 ![comments](../images/comments.png)
 
 A month ago, I discussed how the lessons and assignments about `Objects` on [Edhesive](https://edhesive.com/courses/apcs_java) would aid us in creating alarms for the user. I chose to create runner code and a class called Alarm that would create a new object, or Alarm, everytime I called one in the runner code.
@@ -91,7 +94,7 @@ Alarm 2: 7:00 AM
 Alarm 3: 11:05 PM
 Alarm 4: Invalid time
 ```
-<br>The code I've written is admittedly nowhere near extraordinary, but it provided me with a guideline on how we would code our alarm(s). Looking back at my code, I can see that there probably won't be a user entering an hour greater than 12 because the AM/PM options will be available for them. Of course, an alarm has more aspects to it as well like having the device sound when it's time to notify the user which will be considered in the following weeks.
+The code I've written is admittedly nowhere near extraordinary, but it provided me with a guideline on how we would code our alarm(s). Looking back at my code, I can see that there probably won't be a user entering an hour greater than 12 because the AM/PM options will be available for them. Of course, an alarm has more aspects to it as well like having the device sound when it's time to notify the user which will be considered in the following weeks.
 
 My concern is that the Java code we're learning in class on Edhesive isn't exactly the same code we will be including in Android Studio. Both certainly show the same general elements like public classes, extending classes, return types, and so on. Nonetheless, Android Studio has pieces of code that are foreign to my partners and I which will push us to explore and learn new corners of Java. For example, while I was researching how to make our button work as we had desired, I came across [this](https://www.youtube.com/watch?v=W07OAiJCHa0) video which teaches the viewers how the programmer can set an alarm (quite different from how a user would be able to do so) on Android Studio. On the `MainActivity.java` file, the programmer uses the following code:
 ```
