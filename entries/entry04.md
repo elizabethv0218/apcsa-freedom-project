@@ -19,7 +19,7 @@ Meanwhile, Aaliyah had been referring back to our pseudocode and sketches in our
 A month ago, I discussed how the lessons and assignments about `Objects` on [Edhesive](https://edhesive.com/courses/apcs_java) would aid us in creating alarms for the user. I chose to create runner code and a class called Alarm that would create a new object, or Alarm, everytime I called one in the runner code.
 
 Runner Code:
-```
+```java
 import java.io.IOException;
 
 public class runner {
@@ -42,7 +42,7 @@ public class runner {
 ```
 
 Alarm Class:
-```
+```java
 public class Alarm {
 
     //variables
@@ -87,7 +87,7 @@ public class Alarm {
 ```
 
 Output:
-```
+```java
 ~/java/java-apcsa/tests/ $ jcar runner
 Alarm 1: 8:10 AM
 Alarm 2: 7:00 AM
@@ -97,7 +97,7 @@ Alarm 4: Invalid time
 The code I've written is admittedly nowhere near extraordinary, but it provided me with a guideline on how we would code our alarm(s). Looking back at my code, I can see that there probably won't be a user entering an hour greater than 12 because the AM/PM options will be available for them. Of course, an alarm has more aspects to it as well like having the device sound when it's time to notify the user which will be considered in the following weeks.
 
 My concern is that the Java code we're learning in class on Edhesive isn't exactly the same code we will be including in Android Studio. Both certainly show the same general elements like public classes, extending classes, return types, and so on. Nonetheless, Android Studio has pieces of code that are foreign to my partners and I which will push us to explore and learn new corners of Java. For example, while I was researching how to make our button work as we had desired, I came across [this](https://www.youtube.com/watch?v=W07OAiJCHa0) video which teaches the viewers how the programmer can set an alarm (quite different from how a user would be able to do so) on Android Studio. On the `MainActivity.java` file, the programmer uses the following code:
-```
+```java
 in MainActivity.java
 Button button = (Button) findViewById(R.id.button);
 button.setOnClickListener(new_View.OnClickListener() {
