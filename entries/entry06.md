@@ -57,7 +57,7 @@ The text in red went on and on. What I understood from it was that the activity 
 
 </manifest>
 ```
-I had to come up with my own solution. I first tried to use the `receiver` tags like the ones for `AlarmReceiver` to see if that would work. It didn't. Then I tried using the `activity` tags like the ones for `MainActivity`. It worked. I'm still very apprehensive about the whole ordeal because I think I would have noticed if I deleted a chunk of code. I'll admit defeat for now. Below is a video of how MedTrack works:
+I had to come up with my own solution. I first tried to use the `receiver` tags like the ones for `AlarmReceiver` to see if that would work. It didn't. Then I tried using the `activity` tags like the ones for `MainActivity`. It worked. I'm still very apprehensive about the whole ordeal because I think I would have noticed if I deleted a chunk of code. I'll admit defeat for now. Below are screenshots of how MedTrack works:
 
 ![ScreenRecordingScreenshots](../images/sr-ss.png)
 
