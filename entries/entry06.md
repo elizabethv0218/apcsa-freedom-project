@@ -59,9 +59,7 @@ The text in red went on and on. What I understood from it was that the activity 
 ```
 I had to come up with my own solution. I first tried to use the `receiver` tags like the ones for `AlarmReceiver` to see if that would work. It didn't. Then I tried using the `activity` tags like the ones for `MainActivity`. It worked. I'm still very apprehensive about the whole ordeal because I think I would have noticed if I deleted a chunk of code. I'll admit defeat for now. Below is a video of how MedTrack works:
 
-<video controls="true" allowfullscreen="true">
-  <source src="../images/MedTrack-rec1.mov" type="video/mp4">
-</video>
+![ScreenRecordingScreenshots](../images/sr-ss.png)
 
 I can't say our MedTrack application is out of this world, but I am proud of everything I've learned by myself and with my partners these past couple of months. When we have the time, we will improve even further on our MVP. Considering the times we are going through, it's incredible we've come so far. Stay safe everyone.
 
